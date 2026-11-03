@@ -1,0 +1,52 @@
+html{
+	
+   cursor: url('images/giraffe.png'), auto;
+}
+
+body {
+         background-color: black;
+		/* background-attachment: fixed;*/
+		  background-size: 40%;
+         text-align: center;
+         font-family: PC-98;
+         }
+         
+         @font-face {
+    font-family: 'PC-98'; /*a name to be used later*/
+    src: url('pc-9800.ttf'); /*URL to font*/
+}
+ a:link {
+  color: Plum;
+  background-color: transparent;
+}
+
+a:visited {
+  color: HotPink;
+  background-color: transparent;
+}     
+    #demobox {
+  width: 900px;
+  margin: auto;
+  border: 5px groove white;
+  text-align:center; 
+  font-size:22px;
+  background-color: pink;
+  font-family: PC-98;
+  padding: 15px;
+  color: white;
+  background-image: url("images/textboxbg.png");
+  background-size: 100%;
+    }
+	.topnav {
+  width: 900px;
+  margin: auto;
+  border: 5px groove white;
+  text-align:center; 
+  font-size:22px;
+  background-color: pink;
+  font-family: PC-98;
+  padding: 15px;
+  color: white;
+  background-image: url("images/textboxbg.png");
+  background-size: 100%;
+    }
