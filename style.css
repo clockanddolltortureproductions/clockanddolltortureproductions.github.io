@@ -49,3 +49,12 @@ a:visited {
   background-image: url("images/textboxbg.png");
   background-size: 100%;
     }
+
+    @media (orientation: portrait) {
+ #demobox{
+    width:100%;
+    padding:0px;
+      margin: -1%;
+
+ }
+}
